@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #262b30;
+    --secondary-color: #2d4059;
+    --accent-color: #ff5722;
+    --light-color: #eeeeee;
+    --positive-color: #3d8a3f; /* Green color for positive change */
+    --negative-color: #ce0101; /* Red color for negative change */
+}
+
+body {
+    direction: rtl;
+    font-family: 'YourLovelyFont', sans-serif; /* Change 'YourLovelyFont' to your preferred font */
+}
