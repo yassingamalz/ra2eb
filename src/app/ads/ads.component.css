@@ -1,0 +1,19 @@
+.ads-container {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Responsive styles to ensure the ad fits within its container */
+.google-ads {
+  max-width: 100%;
+}
+
+/* Optional: Center the ad within the container */
+.ng-adsense {
+  display: block;
+  margin: 0 auto;
+}

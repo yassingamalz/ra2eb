@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LivePriceComponent } from './live-price/live-price.component';
 import { PriceInputComponent } from './price-input/price-input.component';
-import { RslComponent } from './rsl/rsl.component';
 import { NewsComponent } from './news/news.component';
 import { FooterComponent } from './footer/footer.component';
 import { AdsComponent } from './ads/ads.component';
+import { AdsenseModule } from 'ng2-adsense';
 
 @NgModule({
   declarations: [
@@ -17,15 +17,19 @@ import { AdsComponent } from './ads/ads.component';
     HeaderComponent,
     LivePriceComponent,
     PriceInputComponent,
-    RslComponent,
     NewsComponent,
     FooterComponent,
-    AdsComponent
+    AdsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-  ],
+    AdsenseModule.forRoot({
+      adClient: 'ca-pub-5210825966321952',
+      adSlot: 7414189616,
+      adFormat: 'auto',
+    })],
+
   providers: [],
   bootstrap: [AppComponent]
 })
