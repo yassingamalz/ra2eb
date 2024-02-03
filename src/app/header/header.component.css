@@ -1,0 +1,35 @@
+    .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-brand {
+    margin: 0px 40px ; /* Move logo to the right */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Move links to the left */
+  }
+  
+  .nav-link {
+    color: var(--light-color);
+    /* Add hover effects if desired */
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .dropdown-menu {
+    background-color: var(--secondary-color);
+    /* Style dropdown menu as needed */
+  }
+  
+  .dropdown-item {
+    color: var(--light-color);
+    /* Style dropdown items as needed */
+  }
+  
+  .dropdown-item:hover {
+    color: var(--accent-color);
+  }
+  
