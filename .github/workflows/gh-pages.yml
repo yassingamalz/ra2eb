@@ -26,6 +26,15 @@ jobs:
     - name: Build
       run: npm run build:prod
 
+    - name: Debug Permissions
+      run: |
+        echo "Current repository: $GITHUB_REPOSITORY"
+        echo "Current actor: $GITHUB_ACTOR"
+        echo "Token: ${{ secrets.GITHUB_TOKEN }}"
+        git remote -v
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Deploy
       if: success()
       uses: peaceiris/actions-gh-pages@v3
