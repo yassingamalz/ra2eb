@@ -11,6 +11,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AdsComponent } from './ads/ads.component';
 import { AdsenseModule } from 'ng2-adsense';
 import { GroceryPricesComponent } from './grocery-prices/grocery-prices.component';
+import { MeatMarketPricesComponent } from './meat-market-prices/meat-market-prices.component';
+import { CombustibleMarketPricesComponent } from './combustible-market-prices/combustible-market-prices.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { GroceryPricesComponent } from './grocery-prices/grocery-prices.componen
     NewsComponent,
     FooterComponent,
     AdsComponent,
-    GroceryPricesComponent
+    GroceryPricesComponent,
+    MeatMarketPricesComponent,
+    CombustibleMarketPricesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
