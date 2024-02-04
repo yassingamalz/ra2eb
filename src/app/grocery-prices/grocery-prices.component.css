@@ -53,3 +53,7 @@
   .red {
     color: red;
   }
+  .date{
+    color: var(--accent-color);
+    font-weight: bold;
+  }
