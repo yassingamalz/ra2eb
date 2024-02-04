@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-grocery-prices',
   templateUrl: './grocery-prices.component.html',

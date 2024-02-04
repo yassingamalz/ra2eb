@@ -1,35 +1,44 @@
-    .navbar {
-    background-color: var(--primary-color);
-  }
-  
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand {
+  margin: 0px 80px; /* Move logo to the right */
+}
+
+.navbar-nav {
+  margin-right: 0px; 
+}
+
+.navbar-nav li {
+  margin-left: 5px; 
+}
+
+.nav-link {
+  color: var(--light-color);
+  /* Add hover effects if desired */
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.dropdown-menu {
+  background-color: var(--primary-color);
+  /* Style dropdown menu as needed */
+}
+
+.dropdown-item {
+  color: var(--light-color);
+  /* Style dropdown items as needed */
+}
+
+.dropdown-item:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
   .navbar-brand {
-    margin: 0px 60px ; /* Move logo to the right */
+    margin: 0px 30px; /* Move logo to the right */
   }
-  
-  .navbar-nav {
-    margin-left: auto; /* Move links to the left */
-  }
-  
-  .nav-link {
-    color: var(--light-color);
-    /* Add hover effects if desired */
-  }
-  
-  .nav-link:hover {
-    color: var(--accent-color);
-  }
-  
-  .dropdown-menu {
-    background-color: var(--secondary-color);
-    /* Style dropdown menu as needed */
-  }
-  
-  .dropdown-item {
-    color: var(--light-color);
-    /* Style dropdown items as needed */
-  }
-  
-  .dropdown-item:hover {
-    color: var(--accent-color);
-  }
-  
+}
