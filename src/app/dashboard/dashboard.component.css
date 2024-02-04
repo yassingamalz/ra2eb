@@ -1,0 +1,22 @@
+/* Add this style to your existing CSS or create a new CSS file */
+
+.container {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  
+  .dashboard-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Optional: Add borders for separation */
+    padding: 15px; /* Optional: Add padding for better aesthetics */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  /* Optional: Style for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+  
