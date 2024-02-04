@@ -1,1 +1,32 @@
-<p>news works!</p>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="article-sidebar">
+                <div class="featured-article">
+                    <img [src]="articles[0]?.imageUrl" alt="{{ articles[0]?.title }}" class="featured-image">
+                    <h4>{{ articles[0]?.title }}</h4>
+                    <p>{{ articles[0]?.description }}</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="article-list">
+                <div *ngFor="let article of articles" class="article">
+                    <img [src]="article.imageUrl" alt="{{ article.title }}" class="article-image">
+                    <div class="article-content">
+                        <h3>{{ article.title }}</h3>
+                        <p>{{ article.description }}</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-8 offset-lg-4">
+                    <a href="#" class="btn btn-secondary btn-full-list">See Full List of Articles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
