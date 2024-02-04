@@ -1,0 +1,15 @@
+<div class="grocery-prices">
+    <div class="item-header">
+      <span class="date">{{ today | date:'longDate' }}</span>
+    </div>
+    <div class="item" *ngFor="let item of groceryItems" (click)="onItemClick(item)">
+      <span class="name">{{item.name}}</span>
+      <span class="price">{{item.price}}</span>
+      <span class="change" [ngClass]="getColorClass(item.change)">
+        <span class="change-text">{{item.change}}%</span>
+        <i class="fa" [ngClass]="getRandomIcon()"></i>
+      </span>
+    </div>
+    <button class="see-full-list">رؤية القائمة الكاملة</button>
+  </div>
+  

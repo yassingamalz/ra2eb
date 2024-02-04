@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RslComponent } from './rsl.component';
+import { GroceryPricesComponent } from './grocery-prices.component';
 
-describe('RslComponent', () => {
-  let component: RslComponent;
-  let fixture: ComponentFixture<RslComponent>;
+describe('GroceryPricesComponent', () => {
+  let component: GroceryPricesComponent;
+  let fixture: ComponentFixture<GroceryPricesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RslComponent]
+      declarations: [GroceryPricesComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(RslComponent);
+    fixture = TestBed.createComponent(GroceryPricesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

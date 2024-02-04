@@ -10,6 +10,7 @@ import { NewsComponent } from './news/news.component';
 import { FooterComponent } from './footer/footer.component';
 import { AdsComponent } from './ads/ads.component';
 import { AdsenseModule } from 'ng2-adsense';
+import { GroceryPricesComponent } from './grocery-prices/grocery-prices.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AdsenseModule } from 'ng2-adsense';
     NewsComponent,
     FooterComponent,
     AdsComponent,
+    GroceryPricesComponent
   ],
   imports: [
     BrowserModule,
