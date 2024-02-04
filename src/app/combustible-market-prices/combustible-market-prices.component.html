@@ -1,0 +1,10 @@
+<div class="combustible-market-prices">
+    <h2>أسعار الوقود</h2>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let fuel of fuels">
+        <span class="badge">{{ fuel.price | currency:fuel.currency }}</span> {{ fuel.name }}
+        <span *ngIf="fuel.exchangeRate">({{ fuel.exchangeRate }} {{ fuel.currency }}/دولار أمريكي)</span>
+      </li>
+    </ul>
+  </div>
+  

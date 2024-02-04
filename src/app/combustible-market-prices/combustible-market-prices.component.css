@@ -1,0 +1,48 @@
+.combustible-market-prices {
+    /* Background color */
+    /* Padding */
+    /* Border */
+    /* Margin */
+  }
+  
+  .combustible-market-prices h2 {
+    /* Font family */
+    /* Font size */
+    /* Color */
+    /* Margin */
+  }
+  
+  .combustible-market-prices ul {
+    /* List style */
+    /* Padding */
+    /* Margin */
+  }
+  
+  .combustible-market-prices li {
+    /* Display (flex, inline-block, etc.) */
+    /* Justify-content */
+    /* Align-items */
+    /* Padding */
+    /* Border */
+    /* Margin */
+  }
+  
+  .combustible-market-prices span.badge {
+    /* Background color */
+    /* Color */
+    /* Padding */
+    /* Border-radius */
+    /* Font size */
+  }
+  
+  /* Currency symbol and exchange rate styles */
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* ... */
+  }
+  
+  @media (max-width: 480px) {
+    /* ... */
+  }
+  
