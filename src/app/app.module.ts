@@ -14,6 +14,9 @@ import { GroceryPricesComponent } from './grocery-prices/grocery-prices.componen
 import { MeatMarketPricesComponent } from './meat-market-prices/meat-market-prices.component';
 import { CombustibleMarketPricesComponent } from './combustible-market-prices/combustible-market-prices.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ItemDetailsComponent } from './item-details/item-details.component';
+import { RouterModule } from '@angular/router';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -27,11 +30,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     GroceryPricesComponent,
     MeatMarketPricesComponent,
     CombustibleMarketPricesComponent,
-    DashboardComponent
+    DashboardComponent,
+    ItemDetailsComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     AdsenseModule.forRoot({
       adClient: 'ca-pub-5210825966321952',
       adSlot: 7414189616,
