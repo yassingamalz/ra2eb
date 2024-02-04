@@ -1,0 +1,9 @@
+<div class="meat-market-prices">
+        <h2>Meat</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let meat of meats">
+            <span class="badge">{{ meat.price | currency:'EGP' }}</span> {{ meat.name }}
+          </li>
+        </ul>
+      </div>
+  

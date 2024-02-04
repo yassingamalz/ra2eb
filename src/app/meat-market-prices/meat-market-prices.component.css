@@ -1,0 +1,45 @@
+.meat-market-prices {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Or your preferred margin */
+  }
+  
+  .meat-market-prices h2 {
+    font-family: sans-serif;
+    font-size: 1.5em; /* Or your preferred heading size */
+    margin-bottom: 10px; /* Or your preferred margin */
+  }
+  
+  .meat-market-prices ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .meat-market-prices li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Or your preferred border color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .meat-market-prices span.badge {
+    background-color: #e00; /* Or your preferred badge color */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8em; /* Or your preferred badge size */
+  }
+@media (max-width: 768px) {
+  .meat-market-prices {
+    /* Adjust layout for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .meat-market-prices {
+    /* Adjust layout for even smaller screens */
+  }
+}
+  
