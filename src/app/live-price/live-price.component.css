@@ -2,6 +2,8 @@
     overflow-x: hidden;
     white-space: nowrap;
     background-color: var(--primary-color);
+    height: 100%; /* Default height for larger screens */
+    padding: 10px 0px;
 }
 
 .live-price-tracker {
@@ -27,7 +29,8 @@
     align-items: center;
     background-color: transparent;
     margin-right: 15px;
-    padding: 0; /* Remove padding for a cleaner appearance */
+    padding: 0;
+    /* Remove padding for a cleaner appearance */
     border: none;
 }
 
@@ -72,4 +75,27 @@
     100% {
         transform: translateX(-100%);
     }
+}
+
+@media (max-width: 768px) {
+    .live-price-tracker-container {
+        height: 80%; /* Adjusted height for smaller screens */
+        padding: 7px 0px;
+    }
+
+    .change{
+        margin: 0;
+    }
+
+    .card-title,
+    .item-value {
+        font-size: 0.9em; /* Adjusted font size for smaller screens */
+    }
+
+    .card-body {
+        padding: 2px 7px 0px; /* Adjusted padding for smaller screens */
+    }
+
+   
+
 }

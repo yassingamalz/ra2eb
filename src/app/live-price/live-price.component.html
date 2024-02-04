@@ -5,7 +5,7 @@
                 <div class="card-body">
                     <div class="column">
                         <h5 class="card-title">{{ item.name }}</h5>
-                        <p class="item-value">{{ item.price }} LE</p>
+                        <p class="item-value">{{ item.price | currency:'EGP' }}</p>
                         <p class="change" [ngClass]="{ 'positive': item.change > 0, 'negative': item.change < 0 }">
                             <i class="fa fa-arrow-{{ item.change >= 0 ? 'up' : 'down' }}"></i>
                             {{ item.change }}%
