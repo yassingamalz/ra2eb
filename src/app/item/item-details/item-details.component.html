@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="item-details">
+                <div class="item-header">
+                    <h2>{{ selectedItem.name }}</h2>
+                    <span class="date">{{ today | date:'hh:mm MM/dd/yyyy' }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="item-main">
+                    <div class="item-info">
+                        <p><strong>Price:</strong> {{ selectedItem.price }}</p>
+                        <!-- Add other item information as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-4">
+                <app-price-input></app-price-input>
+            </div>
+            <div class="item-graph col-sm-12 col-lg-8 col-md-8">
+                <app-price-graph></app-price-graph>
+            </div>
+        </div>
+    </div>
+</div>
