@@ -1,0 +1,11 @@
+<!-- price-graph.component.html -->
+<div class="container mt-5">
+    <canvas #priceChartCanvas class="chart-canvas"></canvas>
+    <div class="button-group">
+      <button (click)="createPriceGraph('day')">Day</button>
+      <button (click)="createPriceGraph('week')">Week</button>
+      <button (click)="createPriceGraph('month')">Month</button>
+      <button (click)="createPriceGraph('year')">Year</button>
+    </div>
+  </div>
+  

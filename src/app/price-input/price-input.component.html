@@ -1,1 +1,71 @@
-<p>price-input works!</p>
+<div class="row mt-5">
+    <div class="card shadow p-4">
+        <h2 class="text-center mb-4">تواصل بخصوص السعر</h2>
+        <p class="text-center mb-4"> شكراً لك على منحنا الفرصة لتقديم أفضل عرض سعر لك. نرجو منك أن تزودنا بالمعلومات
+            الضرورية لنتمكن من تقديم عرض دقيق ومناسب. نحن نحترم خصوصيتك ونضمن لك السرية والأمان في التعامل مع المعلومات
+            التي ترسلها. يمكنك الاطلاع على <a href=#>سياسة الخصوصية</a> الخاصة بنا لمزيد من التفاصيل. عندما توافق على
+            السعر الذي نقدمه لك، ستحصل على نقاط مكافأة كهدية تعبيراً عن تقديرنا لك. نشكرك على تفهمك وتعاونك! </p>
+
+        <form class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="productName" class="form-label">اسم المنتج</label>
+                <input type="text" class="form-control" id="productName" placeholder="أدخل اسم المنتج" required>
+                <div class="invalid-feedback">
+                    الرجاء إدخال اسم المنتج.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="price" class="form-label">السعر</label>
+                <div class="input-group">
+                    <input type="number" class="form-control" id="price" placeholder="أدخل السعر" required>
+                </div>
+                <div class="invalid-feedback">
+                    الرجاء إدخال السعر بشكل صحيح.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="zone" class="form-label">المنطقة</label>
+                <select class="form-select" id="zone" required>
+                    <option value="" disabled selected>اختر المنطقة</option>
+                    <option value="cairo">القاهرة</option>
+                    <option value="giza">الجيزة</option>
+                    <option value="alexandria">الإسكندرية</option>
+                    <option value="luxor">الأقصر</option>
+                    <option value="aswan">أسوان</option>
+                    <option value="damietta">دمياط</option>
+                    <option value="faiyum">الفيوم</option>
+                    <option value="ismailia">الإسماعيلية</option>
+                    <option value="kafr_el_sheikh">كفر الشيخ</option>
+                    <option value="matruh">مطروح</option>
+                    <option value="minya">المنيا</option>
+                    <option value="monufia">المنوفية</option>
+                    <option value="new_valley">الوادي الجديد</option>
+                    <option value="north_sinai">شمال سيناء</option>
+                    <option value="port_said">بورسعيد</option>
+                    <option value="qalyubia">القليوبية</option>
+                    <option value="qena">قنا</option>
+                    <option value="red_sea">البحر الأحمر</option>
+                    <option value="sohag">سوهاج</option>
+                    <option value="south_sinai">جنوب سيناء</option>
+                    <option value="suez">السويس</option>
+
+                </select>
+                <div class="invalid-feedback">
+                    الرجاء اختيار المنطقة.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">البريد الإلكتروني</label>
+                <input type="email" class="form-control" id="email" placeholder="أدخل البريد الإلكتروني" required>
+                <div class="invalid-feedback">
+                    الرجاء إدخال عنوان بريد إلكتروني صحيح.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">إرسال</button>
+        </form>
+    </div>
+</div>
