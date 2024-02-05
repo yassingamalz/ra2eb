@@ -14,9 +14,10 @@ import { GroceryPricesComponent } from './grocery-prices/grocery-prices.componen
 import { MeatMarketPricesComponent } from './meat-market-prices/meat-market-prices.component';
 import { CombustibleMarketPricesComponent } from './combustible-market-prices/combustible-market-prices.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ItemDetailsComponent } from './item-details/item-details.component';
+import { ItemDetailsComponent } from './item/item-details/item-details.component';
 import { RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
+import { PriceGraphComponent } from './price-graph/price-graph.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     CombustibleMarketPricesComponent,
     DashboardComponent,
     ItemDetailsComponent,
-    HomePageComponent
+    HomePageComponent,
+    PriceGraphComponent
   ],
   imports: [
     BrowserModule,
